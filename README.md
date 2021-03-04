@@ -1,6 +1,6 @@
 # Automatic Parking-Space-Allocation
 ### Step 1
-Create a folder for example <folder_name> and put 2 files into it. image or video and its corresponding YAML file. 
+Create a folder for example <folder_name> and put 2 files into it. Image or video and its corresponding YAML file. 
 
 In yaml file put the following lines-
 
