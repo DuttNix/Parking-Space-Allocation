@@ -7,8 +7,13 @@
 git clone https://github.com/nixondutt/Parking-Space-Allocation
 
 #### Step 2
+To install all the dependency run - 
 
-python detectV3.py
+  --pip install -r requirements.txt
+
+Then run 
+
+  --python detectV3.py
 
 Result will be saved in runs/detect/exp<no.> folder 
 
