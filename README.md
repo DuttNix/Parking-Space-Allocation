@@ -1,4 +1,19 @@
 # Automatic Parking-Space-Allocation
+
+### To run this project do the following- 
+
+#### Step 1 
+
+git clone https://github.com/nixondutt/Parking-Space-Allocation
+
+#### Step 2
+
+python detectV3.py
+
+Result will be saved in runs/detect/exp<no.> folder 
+
+## To create your own Parking Lot System
+
 ### Step 1
 Create a folder for example <folder_name> and put 2 files into it. Image or video and its corresponding YAML file. 
 
