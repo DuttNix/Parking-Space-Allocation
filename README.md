@@ -28,15 +28,17 @@ Return to parking space allocation folder and run video_bounding_box_v2.py.
 
 To select the parking lot regions type-
 
-  - python video_bounding_box_v2.py --four_corners --source <image file_name>.jpg -- data <yaml file name>.yaml 
+  - python video_bounding_box_v2.py --four_corners --source <image file_name>.jpg -- data [yamlfile name].yaml 
 
-This will create a yaml file namly four_corners_cordinate.yaml inside <folder>.
+This will create a yaml file namly **four_corners_cordinate.yaml** inside the created folder.
  
-ps - At each region of interest put id number
+ps - At each region of interest put id number from command line
 
 To select the corresponding rectangular type - 
   
-  - python video_bounding_box_v2.py --rectangles --source <imgae file_name>.jpg --data <yaml file name>.yaml
+  - python video_bounding_box_v2.py --rectangles --source <imgae file_name>.jpg --data [yamlfile name].yaml
+
+This will create a yaml file namly **rectangle_cordinate.yaml** inside the created folder.
 
 ps - At each region of interest put same id number as previous time. The id's must be same for both **four_corners_cordinate.yaml file** and **rectangle_cordinates_yaml file**.
 
