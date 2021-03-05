@@ -20,7 +20,7 @@ Result will be saved in runs/detect/exp<no.> folder
 ## To create your own Parking Lot System
 
 ### Step 1
-Create a folder for example demo_data_2 and put 2 files into it. Image or video and its corresponding YAML file for example -- demo_data_2.MP4 and demo_data_2.yaml. 
+Create a folder for example demo_data_2 and put 2 files into it. Image or video and its corresponding YAML file for example -- demo_data_2.mp4 and demo_data_2.yaml. 
 
 In demo_data_2.yaml file copy the following lines-
 
@@ -51,6 +51,6 @@ ps - At each region of interest put same id number as previous time. The id's mu
 
 Run detectV3.py.
 
-  - python detectV3.py
+  - python detectV3.py --source demo_data_2/demo_data_2.mp4 --parking_box_label demo_data_2/demo_data_2.yaml
 
 Your result will be saved in runs/detect/exp<no.> folder
