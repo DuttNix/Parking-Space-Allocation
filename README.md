@@ -4,7 +4,7 @@
 
 #### Step 1 
 
-git clone https://github.com/nixondutt/Parking-Space-Allocation
+`git clone https://github.com/nixondutt/Parking-Space-Allocation`
 
 #### Step 2
 To install all the dependency run - 
