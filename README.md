@@ -24,9 +24,11 @@ Create a folder for example demo_data_2 and put 2 files into it. Image or video 
 
 In demo_data_2.yaml file copy the following lines-
 
-  ` four_corners : demo_data_2/four_corners_cordinate.yaml`
+  ```
+   four_corners : demo_data_2/four_corners_cordinate.yaml
   
-   `rectangle_cordinates: demo_data_2/rectangle_cordinates.yaml`
+   rectangle_cordinates: demo_data_2/rectangle_cordinates.yaml 
+   ```
   
 ### Step 2
 Return to parking space allocation folder and run video_bounding_box_v2.py.
